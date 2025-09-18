@@ -1,16 +1,4 @@
-# Forget More to Learn More: A PyTorch Implementation
-
-This repository contains a PyTorch implementation of the paper:\
-**"Forget More to Learn More: Domain-specific Feature Unlearning for
-Semi-supervised and Unsupervised Domain Adaptation"**\
-by *Hritam Basak and Zhaozheng Yin*.
-
-The project implements the novel episodic learning strategy of *"learn,
-forget, then learn more"* for Semi-supervised Domain Adaptation (SSDA).\
-The core idea is to first explicitly learn domain-specific features,
-then unlearn (forget) them to create a domain-agnostic representation,
-and finally learn a robust classifier on this cleaned representation.
-
+# Forget More to Learn More
 ------------------------------------------------------------------------
 
 ## Methodology Overview
